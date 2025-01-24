@@ -43,7 +43,7 @@ async def process(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     """Start bot."""
-    API_TOKEN = "8078512191:AAE7AOK6HCajnoBvkR8qkRt1ma4rumICDys"
+    API_TOKEN = "my_token_here"
     application = Application.builder().token(API_TOKEN).build()
     # Command handler for /start
     application.add_handler(CommandHandler("start", start))
